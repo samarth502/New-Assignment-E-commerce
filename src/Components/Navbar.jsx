@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className=" shadow-lg bg-yellow-300  ">
       <div className=" max-sm:w-full">
-        <div className="flex md:justify-center md:pt-8 md:items-center  clipPathOne  sm:h-28 xs:h-24  bg-black lg:mt-[-50px] sm:px-5 xs:px-5 md:mt-[-50px] xs:justify-between xs:items-center sm:justify-between sm:items-center sm:mt-[-40px] xs:mt-5">
+        <div className="flex md:justify-center md:pt-8 md:items-center  clipPathOne  sm:h-28 xs:h-24  bg-black lg:mt-[-50px] sm:px-5 xs:px-5 md:mt-[-50px] xs:justify-between xs:items-center sm:justify-between sm:items-center sm:mt-[-40px] xs:mt-5 xs:w-full">
           <p className="text-2xl font-bold  md:hidden text-white ">logo</p>
 
           <div className="hidden md:flex flex-col md:flex-row md:items-center md:justify-center items-center justify-center ">

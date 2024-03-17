@@ -6,7 +6,7 @@
   .clipPathOne {
     clip-path: polygon(100% 33%, 88% 100%, 7% 100%, 0 33%);
 
-    @media ((min-width: 481px) and (max-width: 767px)) {
+    @media ((min-width: 375px) and (max-width: 767px)) {
       clip-path: none;
   }
   }
