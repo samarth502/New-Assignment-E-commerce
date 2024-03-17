@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .clipPathOne {
+    clip-path: polygon(100% 33%, 88% 100%, 7% 100%, 0 33%);
+
+    @media ((min-width: 481px) and (max-width: 767px)) {
+      clip-path: none;
+  }
+  }
+ 
+}
+
+
+@layer base{
+
+ 
+  /* Add this to your CSS file or Tailwind CSS setup */
+.slick-arrow {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  font-size: 30px;
+}
+
+.slick-prev {
+  left: 250px;
+  top: 300px;
+}
+
+.slick-next {
+  right: 250px;
+  top: 300px;
+}
+.clipPathOne{
+  
+  
+  @apply    lg:w-[80%]   m-auto  
+
+  
+  /* color: red; */
+
+}
+
+}
