@@ -118,12 +118,12 @@ const SimpleSlider = () => {
   
 
   return (
-    <div className="2xl:w-[70%] lg:w-full m-auto xs:mt-7 xs:w-full">
+    <div className="2xl:w-[70%] lg:w-full m-auto xs:mt-7 xs:w-full max-xs:mt-14">
     <Slider {...settings} >
       <div className=" relative">
-      <div className=" absolute bottom-14 right-28 flex flex-col justify-center items-center gap-4 xs:text-2xl xs:right-0 sm:bottom-20 sm:right-0 w-full ">
+      <div className=" absolute bottom-14 right-28 flex flex-col justify-center items-center gap-4 xs:text-2xl xs:right-0 sm:bottom-20 sm:right-0 w-full max-xs:right-0 max-xs:bottom-6 ">
           <h1 className="lg:text-6xl 2xl:text-7 xl text-center font-extrabold text-white sm:text-4xl xs:text-4xl md:text-5xl ">GET START<br/> YOUR FAVRIOT SHOPPING</h1>
-          <button className="bg-black text-xl px-12 py-5 w-52 text-white rounded-xl font-extrabold xs:px-4 ">BAY NOW</button>
+          <button className="bg-black text-xl px-12 py-5 w-52 text-white rounded-xl font-extrabold xs:px-4 max-xs:p-2 max-xs:text-sm  max-xs:w-36">BAY NOW</button>
         </div>
         <div className="flex justify-center items-center ">
           

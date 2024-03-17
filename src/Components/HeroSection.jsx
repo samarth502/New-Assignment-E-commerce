@@ -42,7 +42,7 @@ const HeroSection = () => {
       <section className="bg-yellow-300 ">
 
         <div className=" flex flex-col justify-center items-center gap-10 w-full overflow-x-hidden ">
-          <p className="text-6xl text-white font-extrabold xs:text-5xl xs:mt-7 ">
+          <p className="text-6xl text-white font-extrabold xs:text-5xl xs:mt-7 max-xs:text-5xl max-xs:mt-6 ">
             Eflyer
           </p>
           <div className="flex justify-center items-center gap-9  w-[70%] m-auto max-md:w-full ">
@@ -51,6 +51,8 @@ const HeroSection = () => {
               className="text-white max-md:hidden font-extrabold"
             />
 
+            <div className="flex max-xs:flex-col-reverse max-xs:justify-center max-xs:gap-5 xs:">
+
             <select
               id="category"
               className="border p-2 rounded   bg-black text-white font-extrabold "
@@ -58,7 +60,7 @@ const HeroSection = () => {
             >
               <option value="">All Categories</option>
               {categories.map((category, index) => (
-                <option key={index} value={category}>
+                <option key={index} value={category} >
                   {category}
                 </option>
               ))}
@@ -75,6 +77,8 @@ const HeroSection = () => {
                 size={44}
                 className="bg-red-600 text-white absolute top-0 right-0  "
               ></IoSearch>
+            </div>
+
             </div>
 
             <select className="px-6 py-2  max-sm:hidden bg-black text-white font-extrabold">
