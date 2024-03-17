@@ -41,7 +41,7 @@ const HeroSection = () => {
     <>
       <section className="bg-yellow-300 ">
 
-        <div className="flex flex-col justify-center items-center gap-10 w-full overflow-x-hidden ">
+        <div className=" flex flex-col justify-center items-center gap-10 w-full overflow-x-hidden ">
           <p className="text-6xl text-white font-extrabold xs:text-5xl xs:mt-7 ">
             Eflyer
           </p>
@@ -67,7 +67,7 @@ const HeroSection = () => {
               <input
                 type="text"
                 placeholder=" search"
-                className=" lg:w-full lg:px-32  2xl:px-48 md:text-center  py-2 text-center h-11 text-xl xs:w-48  "
+                className=" lg:w-60 2xl:w-96  md:text-center  py-2 text-center h-11 text-xl xs:w-full md:w-52"
                 onChange={(e) => setSearch(e.target.value)}
               />
 
@@ -77,7 +77,7 @@ const HeroSection = () => {
               ></IoSearch>
             </div>
 
-            <select className="px-6 py-2  max-md:hidden bg-black text-white font-extrabold">
+            <select className="px-6 py-2  max-sm:hidden bg-black text-white font-extrabold">
               <option value="volvo">English</option>
               <option value="saab">Hindi</option>
             </select>
@@ -109,3 +109,5 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+// again
